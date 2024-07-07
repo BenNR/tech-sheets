@@ -19,9 +19,7 @@ cat /etc/group
 sudo usermod -aG groupname new_username
 
 
-
-
-rwx rwx rwx - <owner> <groups> <other>
+rwx rwx rwx - <owner> <group> <other>
 
 
 # List groups of user
