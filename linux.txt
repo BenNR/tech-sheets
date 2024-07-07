@@ -6,15 +6,22 @@ htop -t
 # List filesystem
 ls -la
 
+# Create user
+sudo useradd -m -s /bin/bash new_username
+sudo adduser john
 
 
 
 # List all groups
 cat /etc/group
 
+#Add user to group
+sudo usermod -aG groupname new_username
 
 
-rwx rwx rwx - <groups> <user> <other>
+
+
+rwx rwx rwx - <owner> <groups> <other>
 
 
 # List groups of user
@@ -23,6 +30,11 @@ groups <user>
 # Change ownership 
 
 sudo chown username:groupname filename
+
+#Change group ownership recursively of a directory
+sudo chgrp -R groupname directory
+sudo chown -R user:group directory
+
 
 # Chamge permissions of owners
 
@@ -33,3 +45,5 @@ chmod u=rwx,g=rw,o=r test
 chmod 640 test
 
 https://chmod-calculator.com/
+
+# whoami
