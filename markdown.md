@@ -1,59 +1,62 @@
 
 # Element	Markdown Syntax
 
-Heading	
+-- Heading	
 
 # H1
 ## H2
 ### H3
 
-Bold	
+-- Bold	
 
 **bold text**
 
-Italic
+-- Italic
 
 *italicized text*
 
-Blockquote	
+-- Blockquote	
 
 > blockquote
 
-Ordered List	
+-- Ordered List	
 
 1. First item
 2. Second item
 3. Third item
 
-Unordered List	
+-- Unordered List	
 
 - First item
 - Second item
 - Third item
 
-Code	
+-- Code	
 
 `code`
-Horizontal Rule	
+
+-- Horizontal Rule	
 
 ---
-Link	
+
+-- Link	
 
 [title](https://www.example.com)
 
-Image	
+-- Image	
 
 ![alt text](image.jpg)
 
 
-Table	
+-- Table	
 
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
-Fenced Code Block	
+-- Fenced Code Block
+
 ```
 {
   "firstName": "John",
@@ -62,7 +65,7 @@ Fenced Code Block
 }
 ```
 
-Footnote	
+-- Footnote	
 
 Here's a sentence with a footnote. [^1]
 
@@ -76,7 +79,8 @@ Definition List
 term
 : definition
 
-Strikethrough	
+-- Strikethrough	
+
 ~~The world is flat.~~
 
 
@@ -86,18 +90,18 @@ Task List
 - [ ] Update the website
 - [ ] Contact the media
 
-Emoji
+-- Emoji
 
 That is so funny! :joy:
 
-Highlight	
+-- Highlight	
 
 I need to highlight these ==very important words==.
 
-Subscript	
+-- Subscript	
 
 H~2~O
 
-Superscript	
+-- Superscript	
 
 X^2^
