@@ -1,5 +1,4 @@
 
-
 # List all processes
 htop -t
 
@@ -14,16 +13,15 @@ sudo adduser john
 
 # List all groups
 cat /etc/group
+=> adm:x:4:syslog,ben == groupname:password:groupId:membersList
 
 #Add user to group
-sudo usermod -aG groupname new_username
-
-
-rwx rwx rwx - <owner> <group> <other>
+sudo usermod -aG groupname username
 
 
 # List groups of user
 groups <user>
+
 
 # Change ownership 
 
@@ -36,6 +34,8 @@ sudo chown -R user:group directory
 
 # Chamge permissions of owners
 
+rwx rwx rwx - <owner> <group> <other>
+
 chmod[u/g/o][+/-/=][r/w/x] [file]
 
 chmod u=rwx,g=rw,o=r test
@@ -44,4 +44,7 @@ chmod 640 test
 
 https://chmod-calculator.com/
 
-# whoami
+
+# Identify current user group memberships
+whoami
+id
