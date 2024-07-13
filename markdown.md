@@ -7,17 +7,25 @@
 ## H2
 ### H3
 
+
+
 -- Bold	
 
 **bold text**
+
+
 
 -- Italic
 
 *italicized text*
 
+
+
 -- Blockquote	
 
 > blockquote
+
+
 
 -- Ordered List	
 
@@ -25,27 +33,39 @@
 2. Second item
 3. Third item
 
+
+
 -- Unordered List	
 
 - First item
 - Second item
 - Third item
 
+
+
 -- Code	
 
 `code`
+
+
 
 -- Horizontal Rule	
 
 ---
 
+
+
 -- Link	
 
 [title](https://www.example.com)
 
+
+
 -- Image	
 
 ![alt text](image.jpg)
+
+
 
 
 -- Table	
@@ -54,6 +74,8 @@
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
+
+
 
 -- Fenced Code Block
 
@@ -64,6 +86,8 @@
   "age": 25
 }
 ```
+
+
 
 -- Footnote	
 
@@ -84,7 +108,7 @@ term
 ~~The world is flat.~~
 
 
-Task List	
+-- Task List	
 
 - [x] Write the press release
 - [ ] Update the website

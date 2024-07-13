@@ -48,3 +48,7 @@ https://chmod-calculator.com/
 # Identify current user group memberships
 whoami
 id
+
+
+# Sudo 
+sudo cat /etc/sudoers
