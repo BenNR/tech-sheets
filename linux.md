@@ -84,3 +84,11 @@ which <command> => Finds where executable is located
 
 # Modifiy bash for individual users
 ~/.bashrc
+
+
+# List Memory Usage Cached Memory
+free -wh
+
+# List IOPS
+apt install sysstat
+iostat -dx sda
