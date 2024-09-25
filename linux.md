@@ -91,4 +91,8 @@ free -wh
 
 # List IOPS
 apt install sysstat
-iostat -dx sda
+
+iostat -dxm sda
+
+# List size
+du -sh <directory>
